@@ -3,13 +3,13 @@ The purpose of this project is to explore the possibility of dynamic sending/rec
 
 Files: 
 
-- fillUp.png  Shows control panel in its editing mode. 
+- fillUp.png => Shows control panel in its editing mode. 
 
-- running.png  Shows control panel in its saved mode. Program is running and constantly exchanging data with ESP8266. GPIO 2 and 3 are INPUT pins whereas GPIO 1 is an OUTPUT PIN 
+- running.png => Shows control panel in its saved mode. Program is running and constantly exchanging data with ESP8266. GPIO 2 and 3 are INPUT pins whereas GPIO 1 is an OUTPUT PIN 
                 
-- index.html  Contains basic HTML and some CSS
+- index.html => Contains basic HTML and some CSS
 
-- js3.js  Contains JS code that makes communication and interaction with ESP8266 possible. 
+- js3.js => Contains JS code that makes communication and interaction with ESP8266 possible. 
 
 As of this moment the program is hard to use and requires your own Arduino code to run and handle communication on ESP8266. 
 
