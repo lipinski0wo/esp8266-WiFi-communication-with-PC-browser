@@ -5,7 +5,7 @@ Files:
 
 - fillUp.png => Shows control panel in its editing mode. 
 
-- running.png => Shows control panel in its saved mode. Program is running and constantly exchanging data with ESP8266. GPIO 2 and 3 are INPUT pins whereas GPIO 1 is an OUTPUT PIN 
+- running.png => Shows control panel in its saved mode. Program is running and constantly exchanging data with ESP8266. GPIO 2 and 3 are INPUT pins whereas GPIO 1 is an OUTPUT pin. 
                 
 - index.html => Contains basic HTML and some CSS
 
@@ -13,6 +13,6 @@ Files:
 
 As of this moment the program is hard to use and requires your own Arduino code to run and handle communication on ESP8266. 
 
-JS file contains only basic functions and requires more sophisticated ones. JS code is intentionally open to injections via console to let the user improve the code during operation.
+JS file contains only basic functions and requires more sophisticated ones. JS code is intentionally open to injections via console to let the user modify the code during operation.
 
 This code is obviously simple and used solutions are far from being perfect. But now it is much more easier to notice flaws in code and future improvements will pop up due to better understanding of what actually is necessary to create control panel for ESP8266 module.
