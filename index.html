@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>esp8266 control</title>
+	<script type="text/javascript" src="js3.js" async></script>
+	<style type="text/css">
+		* {
+			font-size: 16px;
+			font-weight: 600;
+			background-color: rgb(0, 0, 51);
+			color:white;
+		}
+		section {
+			min-width: 600px;
+			min-height: 400px;
+			border: 1px solid blue;
+			margin: 2px;
+		}
+		div {
+			min-height: 200px;
+			min-width: 98%;
+			margin: 15px 3px;
+			padding: 0;
+			border: 1px solid white;
+		}
+		section > div:first-of-type {
+			min-height: 50px;
+		}
+		div > div {
+			min-height: 30px;
+			border-color: grey;
+			padding: 2px;
+			padding-left: 20px;
+			margin: 3px;
+			box-sizing: border-box;
+		}
+		input {
+			margin: 3px;
+		}
+		button {
+			width: 100px;
+			height: 30px;
+			cursor: pointer;
+			margin: 4px;
+			border: 2px solid orange;
+			border-radius: 4px;
+		}
+		button:focus{
+			outline-color: orange;
+		}
+		section > div:first-of-type button.hidden {
+			display: inline-block;
+			background-color: white;
+			color: black;
+		}
+		div span {
+			padding: 2px;
+			margin: 2px;
+			
+		}
+		div div:hover span:first-of-type {
+			background-color: orange;
+			cursor: pointer;
+		}
+
+		div input:nth-of-type(1), section div:nth-of-type(3) div input:nth-of-type(2) {
+			width: 60px;
+		}
+		div button:nth-last-of-type(2) {
+			margin-left: 10px;
+			background-color: orange;
+			border-color: orange;
+		}
+		 input {
+		 	padding-left: 6px;
+		 	border-width: 3px;
+		 }
+		input:disabled {
+			border: none;
+			margin: 4px;
+			padding: 3.5px;
+			padding-left: 6px;
+		 	background-color: rgb(0, 0, 153);
+		}
+		.hidden{
+			display: none;
+		}
+		.active{
+			border-color: blue;
+		}	
+		.green{
+			border-color: green;
+			outline: green;
+		}
+		.red {
+			border-color: red;
+			outline: red;
+		}			
+	</style>
+</head>
+<body>
+<section>
+	<div></div>
+	<div></div>
+	<div></div>
+</section>
+</body>
+</html>
