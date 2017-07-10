@@ -11,7 +11,7 @@ Files:
 
 - js3.js => Contains JS code that makes communication and interaction with ESP8266 possible. 
 
-As of this moment the program is hard to use and requires your own Arduino code to run and handle communication on ESP8266. 
+As of this moment the JS program is ready to use but requires your own Arduino code to run and handle communication on ESP8266. 
 
 JS file contains only basic functions and requires more sophisticated ones. JS code is intentionally open to injections via console to let the user modify the code during operation.
 
